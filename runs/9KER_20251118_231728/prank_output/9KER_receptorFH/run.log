@@ -1,0 +1,38 @@
+[INFO] Console - predicting pockets for proteins from dataset [9KER_receptorFH.pdb]
+[INFO] PredictPocketsRoutine - outdir: prank_output/9KER_receptorFH
+[INFO] Model - Loading model from directory (v3 format): /home/liff/cadd_pipe/p2rank_2.5.1/models/default
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [9KER_receptorFH.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [9KER_receptorFH.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [9KER_receptorFH.pdb] (1/1)
+[INFO] Protein - loading protein [/home/liff/cadd_pipe/runs/9KER_20251118_231728/9KER_receptorFH.pdb]
+[INFO] PdbUtils - loading file [9KER_receptorFH.pdb]
+[INFO] Struct - all groups in chain A: 414
+[INFO] Struct - all groups in chain A: 414
+[INFO] Struct - 414 groups in chain A
+[INFO] Protein - structure atoms: 6296
+[INFO] Protein - protein   atoms: 3073
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 5882
+[INFO] Protein - exposed protein atoms: 1905 of 3073
+[INFO] SLinkClusterer - clustering [84] elements
+[INFO] SLinkClusterer - clusters: [id:15( 26 ), id:28( 1 ), id:44( 4 ), id:46( 1 ), id:61( 52 )]
+[INFO] SLinkClusterer - clusters together: 84 / 84
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 5882
+[INFO] PocketPredictor - LIGANDABLE POINTS: 84
+[INFO] PocketPredictor - CLUSTERS: 5
+[INFO] PocketPredictor - FILTERED CLUSTERS: 3
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  69   points:  52   score:   20.0
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  36   points:  26   score:    8.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:   6   points:   4   score:    0.8
+[INFO] PredictionVisualizer - copying [/home/liff/cadd_pipe/runs/9KER_20251118_231728/9KER_receptorFH.pdb] to [prank_output/9KER_receptorFH/visualizations/data/9KER_receptorFH.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 2.927 seconds
+[INFO] Console - results saved to directory [/home/liff/cadd_pipe/runs/9KER_20251118_231728/prank_output/9KER_receptorFH]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 4.264 seconds.
