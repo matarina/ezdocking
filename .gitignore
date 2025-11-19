@@ -1,0 +1,22 @@
+# Outputs and caches
+runs/
+prank_output/
+ligand*.sdf
+ligand*.pdbqt
+protein_ligand_*.html
+protein_ligand_interactions.csv
+ligand_network.html
+ligand_best_pose.sdf
+
+# Downloaded tools/data
+geostd/
+p2rank_*/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Conda/Pixi env artifacts
+.pixi/
+.mamba/
+.conda/
